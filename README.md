@@ -25,9 +25,11 @@ The dataset consists of 856 YouTube Shorts, collected using the YouTube Data API
 The target label is determined from the video's 24-hour performance using a virality score.
 
 **Workflow**
+
 YouTube Data API v3 -> Data Collection -> Data Cleaning -> Feature Engineering -> Virality Labeling -> Stratified K-fold Cross Validation -> Model Training -> Evaluation
 
 **Virality Definition**
+
 A virality score is calculated using:
 
 V = 0.6 × views_24h
@@ -37,6 +39,7 @@ V = 0.6 × views_24h
 Videos above the selected percentile threshold are labeled as viral, while the remaining videos are labeled as non-viral.
 
 **Machine Learning Models**
+
 Three classification algorithms are evaluated:
 
 1. Logistic Regression
