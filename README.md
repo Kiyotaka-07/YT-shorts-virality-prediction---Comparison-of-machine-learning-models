@@ -1,4 +1,4 @@
-# YT-shorts-virality-prediction-Comparison-of-machine-learning-models
+# YT Shorts virality prediction - Comparison of machine learning models
 
 **Overview**
 
