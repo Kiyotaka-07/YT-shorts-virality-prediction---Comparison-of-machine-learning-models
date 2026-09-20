@@ -60,7 +60,9 @@ The models are evaluated using:
 Stratified K-Fold Cross-Validation is used to maintain the proportion of viral and non-viral samples across folds.
 
 **Model Comparison (Bar Chart)**
+
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/50c6ade1-63ef-4d48-a98b-0b0485f161f4" />
 
 **ROC Curve Comparison**
+
 <img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/0bac9cd1-9949-43ae-86af-62978bcefd06" />
